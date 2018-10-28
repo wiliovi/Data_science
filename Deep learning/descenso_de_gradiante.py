@@ -27,7 +27,7 @@ for i in range(N_ITERACIONES):
     x = descenso_gradiente(x)
 
 #Batch gradient descent
-'''para solucionar el problema computacional se escoge para cada iteraccion una muestra aleatoria
+'''para solucionar el problema computacional se escoge ,para cada iteraccion ,una muestra aleatoria
 'STEP_SIZE*(f_prima(x_aleatoria))' por lo que el coste computacional es menor en cada iteraccion'''
 
 n_muestras = 1000
